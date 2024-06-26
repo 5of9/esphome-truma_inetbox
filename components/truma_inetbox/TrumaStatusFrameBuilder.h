@@ -1,6 +1,7 @@
 #pragma once
 
 #include "TrumaStructs.h"
+#include "TrumaStructsAlde.h"
 #include "helpers.h"
 
 namespace esphome {
