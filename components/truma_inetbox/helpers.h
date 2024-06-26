@@ -1,6 +1,7 @@
 #pragma once
 
 #include "TrumaEnums.h"
+#include "TrumaEnumsAlde.h"
 #include "esphome/core/helpers.h"
 
 namespace esphome {
