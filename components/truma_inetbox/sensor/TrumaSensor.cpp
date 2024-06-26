@@ -12,7 +12,7 @@ void TrumaSensor::setup() {
     switch (this->type_) {
       case TRUMA_SENSOR_TYPE::CURRENT_ROOM_TEMPERATURE:
       //  this->publish_state(temp_code_to_decimal(status_heater->current_temp_room));
-        this->publish_state(temp_code_to_decimal(status_Alde_Status->current_temp_inside));
+        this->publish_state(temp_code_to_decimal(StatusFrameAldeStatus->current_temp_inside));
         break;
       case TRUMA_SENSOR_TYPE::CURRENT_WATER_TEMPERATURE:
         this->publish_state(temp_code_to_decimal(status_heater->current_temp_water));
