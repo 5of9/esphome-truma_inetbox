@@ -2,6 +2,7 @@
 
 #include "TrumaStausFrameResponseStorage.h"
 #include "TrumaStructs.h"
+#include "TrumaStructsAlde.h"
 
 namespace esphome {
 namespace truma_inetbox {
