@@ -2,6 +2,7 @@
 
 #include "TrumaStausFrameStorage.h"
 #include "TrumaStructs.h"
+#include "TrumaStructsAlde.h"
 #include "esphome/core/helpers.h"
 
 namespace esphome {
